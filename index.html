@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4 - Crystals Collector</title>
+
+
+	
+  	
+  	<link rel="stylesheet" type="text/css" href="asssets/css/rest.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/game.js"></script>
+	<script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="jumbotron">
+			
+			<h1>Crystals Collector</h1>
+			
+			<h4><small>You will be given a random number at the start of the game.</small></h4>
+			<h4><small>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</small></h4>
+			<h4><small>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</small></h4>
+			<h4><small>The value of each crystal is hidden from you until you click on it.</small></h4>
+			<h4><small>Each time when the game starts, the game will change the values of each crystal.</small></h4>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 randomNumberDiv">
+				<h2 id="randomNumber">random#</h2>
+			</div>
+			<div class="col-md-3 col-md-offset-1 winsLossesDiv">
+				<p id="winsTally">Wins: </p>
+				<p id="lossesTally">losses: </p>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-md-1 col-md-offset-1 gem" value="amethyst">
+				<img src="assets/images/amethyst.jpg" class="img-responsive" alt="Amethyst">
+			</div>
+			<div class="col-md-1 col-md-offset-1 gem" value="lapislazuli">
+				<img src="assets/images/lapislazuli.jpg" class="img-responsive" alt="Lapislazuli">
+			</div>
+			<div class="col-md-1 col-md-offset-1 gem" value="moldavite">
+				<img src="assets/images/moldavite.jpg" class="img-responsive" alt="Moldavite">
+			</div>
+			<div class="col-md-1 col-md-offset-1 gem" value="rosequartz">
+				<img src="assets/images/rosequartz.jpg" class="img-responsive" alt="Rosequartz">
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<p>Your total score is:</p>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<h2 id="userScore">score</h2>
+			</div>
+		</div>
+	
+	
+	</div>
+
+	
+	
+
+</body>
+
+</html>

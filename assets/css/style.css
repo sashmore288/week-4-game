@@ -1,0 +1,21 @@
+body
+
+.jumbotron  {
+	background: url("../images/suniverse2.jpg");
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.randomNumberDiv {
+	background-color: #6600ff;
+}
+
+.winsLossesDiv {
+	background-color: #33ff00;
+}
+
+.scoreDiv {
+	background-color: #ff3366;
+}
